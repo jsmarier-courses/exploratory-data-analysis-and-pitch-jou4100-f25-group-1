@@ -24,7 +24,7 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-Insert text here.
+This is the first sentence of the introduction.
 
 ## 2. Getting Data
 
