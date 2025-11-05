@@ -1,11 +1,9 @@
-**Date**<br>
+**November 6, 2025**<br>
 **CMN4100/JOU4100: Digital Journalism II**<br>
-**Andrew Sorokan, Duc Manh Nguyen, Carlos Lo, Sam Serruya**<br>
+**By: Andrew Sorokan, Duc Manh Nguyen, Carlos Lo, Sam Serruya**<br>
 **Presented to Prof. Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
-
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
 
 ## Foreword
 
@@ -29,6 +27,7 @@ This is the first sentence of the introduction.
 ## 2. Getting Data
 
 The data was obtained from the city of Ottawa's open data portal. For the data to be displayed on google sheets, a csv file was downloaded from the portal before uploading it on google sheets.
+
 Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be cleaned to two main categories: a main theme, and the codes which fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column b being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
 
 In regards to anomalies in the data, column A (Characteristics) is the only column with equal-interval and nominal variables , while other columns contain a ratio variable. An additional observation that could be made, is that despite Ward 7 (Column I) having a fairly average population sample size in relation to the total population, they account for 11.2% of the 95 to 99 age groups, vastly outperforming other wards with greater sample size. The impressive stats in older age groups hints at the possibility of higher quality of life as compared to other wards. Lastly, out of all columns, Ward 9 (Column N) heavily underperforms in response rate( 7.60%) as compared to other wards. This creates a potential story that perhaps the area itself doesn’t have a tight community as compared to other wards, which may explain the lack of responsiveness from its residence.
@@ -70,7 +69,7 @@ Lastly, outlier values (O) are values that significantly deviate from the rest; 
 To measure the correctness of the data, we compared this dataset to the 2021 Population Census on the [Knowledge of the official language for the total population excluding institutional residents](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124,2021A00053506008&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=12). There were no major discrepancies, except for minor differences ranging from 0.1% to 0.5% between the two datasets. These differences are not statistically concerning and may be attributed to the sampling methods used - one based on 25% data vs the full 100% census data.
 
 ![](3.1.png)<br>
-*Figure 1: Knowledge of official languges for the total population excluding instituitional residents in Ottawa (Source: [Stats Can](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A00053506008&HEADERlist=12))
+*Figure 1: Knowledge of official languges for the total population excluding instituitional residents in Ottawa (Source: [Stats Can](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A00053506008&HEADERlist=12))*
 
 To sum up, the data is mostly accurate, given that it has an acceptable level of correctness and a decent level of validity. The only issue at stake in this data set is the small number of missing values. 
 
@@ -82,12 +81,18 @@ To ensure that there were no extra spaces, we used the “Trim whitespace” fun
 
 A function that we used to make the data more readable was changing the number format. In the original file, there are no commas in the integers, making it very hard to read. To enhance its readability, we decided to highlight all cells in our dataset (Ctrl + A) and chose the option “custom number format”, which adds a comma as a thousand separator. The only problem that arose after applying this modification is that the system automatically adds two decimal places for all the values. To do so, we Ctrl-A all the cells and select the option to decrease decimal places. 
 
+![](3.1.1.png)<br>
+*Figure 3: Before modifying the number format*
+
+![](3.1.2.png)<br>
+*Figure 4: After modifying the number format*
+
 As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
 
 Our group also leveraged the feature “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
 
 ![](colstats.png)<br>
-*Figure 1: Using the "Column Stats" function to spot for missing values*
+*Figure 4: Using the "Column Stats" function to spot for missing values*
 
 Lastly, to enhance overall readability, our group decided to bold the variable titles. In addition, we highlighted the rows in alternating colors (grey and white) to make each row stand out and prevent misreading values from adjacent rows.
 
