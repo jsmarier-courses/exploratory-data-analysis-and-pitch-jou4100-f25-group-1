@@ -1,6 +1,6 @@
 **Date**<br>
 **Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**Andrew Sorokan**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
