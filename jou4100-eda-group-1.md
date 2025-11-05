@@ -33,6 +33,7 @@ Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be clean
 
 In regards to anomalies in the data, column A (Characteristics) is the only column with equal-interval and nominal variables , while other columns contain a ratio variable. An additional observation that could be made, is that despite Ward 7 (Column I) having a fairly average population sample size in relation to the total population, they account for 11.2% of the 95 to 99 age groups, vastly outperforming other wards with greater sample size. The impressive stats in older age groups hints at the possibility of higher quality of life as compared to other wards. Lastly, out of all columns, Ward 9 (Column N) heavily underperforms in response rate( 7.60%) as compared to other wards. This creates a potential story that perhaps the area itself doesn’t have a tight community as compared to other wards, which may explain the lack of responsiveness from its residence.
 
+If we are to formulate a question after looking at the raw data in general, we would want to know what factors are crucial in helping with response rates for the survey. A question that could be asked in interviews is: “what makes you determine whether or not you want to participate in a city of Ottawa survey? And does your impression of the city councilor affect that decision?”.
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
