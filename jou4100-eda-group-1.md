@@ -90,6 +90,8 @@ A function that we used to make the data more readable was changing the number f
 
 As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
 
+Our group also leveraged the feature “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
+
 Lastly, to enhance overall readability, our group decided to bold the variable titles. In addition, we highlighted the rows in alternating colors (grey and white) to make each row stand out and prevent misreading values from adjacent rows.
 
 ### 3.3. Exploratory Data Analysis (EDA)
