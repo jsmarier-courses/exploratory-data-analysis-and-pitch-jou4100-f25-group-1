@@ -75,7 +75,7 @@ To sum up, the data is mostly accurate, given that it has an acceptable level of
 
 ### 3.2. Cleaning Data
 
-The first function we used for data cleanup was “Freeze Column.” This function keeps an area of a worksheet [visiible while you scroll to another area of the worksheet](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)(Freeze Panes to Lock Rows and Columns, n.d.).Since our dataset contains 26 columns, we decided to freeze Column A, which displays the titles of the variables being measured. Doing so allows us to easily reference what each value represents, even as we navigate through the rest of the data.
+The first function we used for data cleanup was “Freeze Column.” This function keeps an area of a worksheet [visible while you scroll to another area of the worksheet](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)(Freeze Panes to Lock Rows and Columns, n.d.).Since our dataset contains 26 columns, we decided to freeze Column A, which displays the titles of the variables being measured. Doing so allows us to easily reference what each value represents, even as we navigate through the rest of the data.
 
 To ensure that there were no extra spaces, we used the “Trim whitespace” function by clicking on Data > Data Cleanup > Trim whitespace. 
 
@@ -84,7 +84,7 @@ A function that we used to make the data more readable was changing the [number 
 ![](3.1.1.png)<br>
 *Figure 3: Before modifying the number format*
 
-![](3.1.2.png))<br>
+![](3.1.2.png)<br>
 *Figure 4: After modifying the number format*
 
 As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
