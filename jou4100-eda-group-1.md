@@ -82,7 +82,15 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-Insert text here.
+The first function we used for data cleanup was “Freeze Column.” This function keeps the frozen columns visible on the screen, even when the rest of the dataset is scrolled. Since our dataset contains 26 columns, we decided to freeze Column A, which displays the titles of the variables being measured. Doing so allows us to easily reference what each value represents, even as we navigate through the rest of the data.
+
+To ensure that there were no extra spaces, we used the “Trim whitespace” function by clicking on Data > Data Cleanup > Trim whitespace. 
+
+A function that we used to make the data more readable was changing the number format. In the original file, there are no commas in the integers, making it very hard to read. To enhance its readability, we decided to highlight all cells in our dataset (Ctrl + A) and chose the option “custom number format”, which adds a comma as a thousand separator. The only problem that arose after applying this modification is that the system automatically adds two decimal places for all the values. To do so, we Ctrl-A all the cells and select the option to decrease decimal places. 
+
+As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
+
+Lastly, to enhance overall readability, our group decided to bold the variable titles. In addition, we highlighted the rows in alternating colors (grey and white) to make each row stand out and prevent misreading values from adjacent rows.
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
