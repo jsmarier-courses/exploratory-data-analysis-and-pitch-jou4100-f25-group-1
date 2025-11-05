@@ -1,7 +1,7 @@
 **Date**<br>
-**Course Code & Course Name**<br>
-**Andrew Sorokan**<br>
-**Presented to Jean-Sébastien Marier**<br>
+**CMN4100/JOU4100: Digital Journalism II**<br>
+**Andrew Sorokan, Duc Manh Nguyen, Carlos Lo, Sam Serruya**<br>
+**Presented to Prof. Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
 
