@@ -83,12 +83,12 @@ Going forward, we would like to see if the percentage of the population lines up
 
 **This section should include a screen capture of your pivot table, like so:**
 
-![](pivot-table-screen-capture.png)<br>
+![alt text](<Pivot table.png>)
 *Figure 2: This pivot table shows...*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
+![alt text](Chart3.3.png)
 *Figure 3: This exploratory chart shows...*
 
 ## 4. Potential Story
@@ -105,9 +105,9 @@ Is the proximity to Quebec a factor?
 
 Answering these questions during our interviews should help us create a story that gives a detailed answer to our question. 
 
-For interview subjects, there are many different options. Our first option for interviews will be the ward councillours. These will be important people to talk to, as they would have valuable insight into what is going on in their ward. 
+For interview subjects, there are many different options. Our first option for interviews will be the ward councillors. These will be important people to talk to, as they would have valuable insight into what is going on in their ward. 
 
-However, because counsellours aren’t always available for interviews, we need to plan backups. For this, we plan to talk to business owners and people who live in the wards, along with someone who works for the French School board in Ottawa. 
+However, because councillors aren’t always available for interviews, we need to plan backups. For this, we plan to talk to business owners and people who live in the wards, along with someone who works for the French School board in Ottawa. 
 
 
 ## 5. Conclusion
