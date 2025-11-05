@@ -80,7 +80,22 @@ Insert text here.
 
 ## 4. Potential Story
 
-Insert text here.
+For our story, we would like to take a closer look at the top French-speaking wards in Ottawa and write about why they have such a large number of only French speakers. The first thing we are going to do is to look at all the wards and find the wards with the top 3 highest percentages of the French-speaking population. By using the percentage, we can control for population numbers. By percentage of only French-speaking wards 12 (4.26%), 13 (4.17%), and 19 (3.41%) had the most. 
+
+Some factors that we want to look at are how many French schools are in each ward, and if proximity to Quebec means more French speakers. Once we gather this data, we can use interactive maps to show where the schools are and create a heat map of the proportion of French speakers for each ward.
+
+Some of the questions we can explore to answer this question are: 
+Are there differences in the resources that are offered in French? 
+Are there more French businesses in certain wards?
+Are there more French schools? 
+Is the proximity to Quebec a factor?
+
+Answering these questions during our interviews should help us create a story that gives a detailed answer to our question. 
+
+For interview subjects, there are many different options. Our first option for interviews will be the ward councillours. These will be important people to talk to, as they would have valuable insight into what is going on in their ward. 
+
+However, because counsellours aren’t always available for interviews, we need to plan backups. For this, we plan to talk to business owners and people who live in the wards, along with someone who works for the French School board in Ottawa. 
+
 
 ## 5. Conclusion
 
