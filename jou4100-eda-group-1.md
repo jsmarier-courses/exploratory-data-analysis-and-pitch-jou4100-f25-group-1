@@ -140,7 +140,13 @@ However, because councillors aren’t always available for interviews, we need t
 Insert text here.
 
 ## 6. References
-**Data Accuracy and Validation: Methods to ensure the quality of data.* (2020, September 23). Www.statcan.gc.ca. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
-**Format numbers in a spreadsheet.* (2019). Google Docs Editor Help. https://support.google.com/docs/answer/56470?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccustom-number-formatting
-**Freeze panes to lock rows and columns.* (n.d.). Support.microsoft.com. https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f
+*Data Accuracy and Validation: Methods to ensure the quality of data.* (2020, September 23). Www.statcan.gc.ca. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
+
+
+*Format numbers in a spreadsheet.* (2019). Google Docs Editor Help. https://support.google.com/docs/answer/56470?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccustom-number-formatting
+
+
+*Freeze panes to lock rows and columns.* (n.d.). Support.microsoft.com. https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f
+
+
 Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 2021 Census of Population - Canada [Country]*. Www12.Statcan.gc.ca. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124
