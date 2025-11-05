@@ -56,7 +56,7 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 3.1. VIMO Analysis
 
-According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our dataset. 
+According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)(Data Accuracy and Validation: Methods to Ensure the Quality of Data, 2020). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our dataset. 
 
 The V in VIMO represents valid data - values that are not blank or missing, and within a range of valid values. On the other hand, invalid data has values that are impossible. There are no invalid values (I) in our dataset, as all the values as variables appropriately indicate the population in private households of each ward. 
 
@@ -66,7 +66,7 @@ When we calculated the sum of the population who speaks English using “SUM(C3:
 
 Lastly, outlier values (O) are values that significantly deviate from the rest; these values could either be extremely small or extremely large. While nothing out of the blue, we were surprised to see that there are only 30 private household residents reported speaking French exclusively in Ward 21. 
 
-To measure the correctness of the data, we compared this dataset to the 2021 Population Census on the [Knowledge of the official language for the total population excluding institutional residents](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124,2021A00053506008&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=12). There were no major discrepancies, except for minor differences ranging from 0.1% to 0.5% between the two datasets. These differences are not statistically concerning and may be attributed to the sampling methods used - one based on 25% data vs the full 100% census data.
+To measure the correctness of the data, we compared this dataset to the 2021 Population Census on the [Knowledge of the official language for the total population excluding institutional residents](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124,2021A00053506008&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=12)(Government of Canada, 2022). There were no major discrepancies, except for minor differences ranging from 0.1% to 0.5% between the two datasets. These differences are not statistically concerning and may be attributed to the sampling methods used - one based on 25% data vs the full 100% census data.
 
 ![](3.1.png)<br>
 *Figure 1: Knowledge of official languges for the total population excluding instituitional residents in Ottawa (Source: [Stats Can](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A00053506008&HEADERlist=12))*
@@ -75,16 +75,16 @@ To sum up, the data is mostly accurate, given that it has an acceptable level of
 
 ### 3.2. Cleaning Data
 
-The first function we used for data cleanup was “Freeze Column.” This function keeps the frozen columns visible on the screen, even when the rest of the dataset is scrolled. Since our dataset contains 26 columns, we decided to freeze Column A, which displays the titles of the variables being measured. Doing so allows us to easily reference what each value represents, even as we navigate through the rest of the data.
+The first function we used for data cleanup was “Freeze Column.” This function keeps an area of a worksheet [visiible while you scroll to another area of the worksheet](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)(Freeze Panes to Lock Rows and Columns, n.d.).Since our dataset contains 26 columns, we decided to freeze Column A, which displays the titles of the variables being measured. Doing so allows us to easily reference what each value represents, even as we navigate through the rest of the data.
 
 To ensure that there were no extra spaces, we used the “Trim whitespace” function by clicking on Data > Data Cleanup > Trim whitespace. 
 
-A function that we used to make the data more readable was changing the number format. In the original file, there are no commas in the integers, making it very hard to read. To enhance its readability, we decided to highlight all cells in our dataset (Ctrl + A) and chose the option “custom number format”, which adds a comma as a thousand separator. The only problem that arose after applying this modification is that the system automatically adds two decimal places for all the values. To do so, we Ctrl-A all the cells and select the option to decrease decimal places. 
+A function that we used to make the data more readable was changing the [number format](https://support.google.com/docs/answer/56470?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccustom-number-formatting)(Format Numbers in a Spreadsheet, 2019). In the original file, there are no commas in the integers, making it very hard to read. To enhance its readability, we decided to highlight all cells in our dataset (Ctrl + A) and chose the option “custom number format”, which adds a comma as a thousand separator. The only problem that arose after applying this modification is that the system automatically adds two decimal places for all the values. To do so, we Ctrl-A all the cells and select the option to decrease decimal places. 
 
 ![](3.1.1.png)<br>
 *Figure 3: Before modifying the number format*
 
-![](3.1.2.png)<br>
+![](3.1.2.png))<br>
 *Figure 4: After modifying the number format*
 
 As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
@@ -140,9 +140,7 @@ However, because councillors aren’t always available for interviews, we need t
 Insert text here.
 
 ## 6. References
-
-Include a list of your references here. Please follow [APA guidelines for references](https://apastyle.apa.org/style-grammar-guidelines/references). Hanging paragraphs aren't required though.
-
-**Here's an example:**
-
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+**Data Accuracy and Validation: Methods to ensure the quality of data.* (2020, September 23). Www.statcan.gc.ca. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
+**Format numbers in a spreadsheet.* (2019). Google Docs Editor Help. https://support.google.com/docs/answer/56470?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccustom-number-formatting
+**Freeze panes to lock rows and columns.* (n.d.). Support.microsoft.com. https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f
+Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 2021 Census of Population - Canada [Country]*. Www12.Statcan.gc.ca. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124
