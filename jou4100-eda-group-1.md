@@ -59,10 +59,12 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
-According to Statistics Canada, accurate data correctly describes the phenomena they were designed to measure or represent. To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our dataset. 
+According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our dataset. 
 
 The V in VIMO represents valid data - values that are not blank or missing, and within a range of valid values. On the other hand, invalid data has values that are impossible. There are no invalid values (I) in our dataset, as all the values as variables appropriately indicate the number of population in private households of each ward. 
+
 Missing values (M) occur when a variable is left blank. In this dataset, no overt missing values were detected. However, there are some covert missing values, which we identified through manual calculations. Column B represents the total household population with knowledge of official languages across all 24 wards in Ottawa. Logically, the sum of the values in all related columns should equal the total values listed in Column B; however, this is not the case.
+
 When we calculated the sum of the population who speaks English using “SUM(C3:Z3), we got the value of 606,200, whereas cell B3 shows 606,195—indicating that five values are missing. While this is not a huge number, it still affects the accuracy of the data. 
 
 Lastly, outlier values (O) are values that significantly deviate from the rest; these values could either be extremely small or extremely large. To effectively identify outliers, I generated a stacked column chart. While nothing out of the blue, we were surprised to see that there are only 30 private household residents reported speaking French exclusively. 
