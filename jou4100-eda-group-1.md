@@ -151,4 +151,4 @@ Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 
 
 [def]: google-sheets.png
 
-Government of Canada, Statistics Canada. (2021, September 2). Statistics: Power from Data! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm
+Government of Canada, Statistics Canada. (2021, September 2). Statistics: Power from Data! [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm] 
