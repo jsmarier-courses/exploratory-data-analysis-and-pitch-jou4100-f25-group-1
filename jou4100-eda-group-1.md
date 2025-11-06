@@ -61,7 +61,7 @@ When we calculated the sum of the population who speaks English using:
 
 We got the value of 606,200, whereas cell B3 shows 606,195—indicating that five values are missing. While this is not a huge number, it still affects the accuracy of the data. 
 
-Lastly, outlier values (O) are values that significantly deviate from the rest; these values could either be extremely small or extremely large. While nothing out of the blue, we were surprised to see that there are only 30 private household residents reported speaking French exclusively in Ward 21. 
+Lastly, outlier values (O) are values that significantly deviate from the rest; these values could either be extremely small or extremely large. We were surprised to see that there are only 30 private household residents reported speaking French exclusively in Ward 21. 
 
 To measure the correctness of the data, we compared this dataset to the 2021 Population Census on the [Knowledge of the official language for the total population excluding institutional residents](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124,2021A00053506008&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=12)(Government of Canada, 2022). There were no major discrepancies, except for minor differences ranging from 0.1% to 0.5% between the two datasets. These differences are not statistically concerning and may be attributed to the sampling methods used - one based on 25% data vs the full 100% census data.
 
