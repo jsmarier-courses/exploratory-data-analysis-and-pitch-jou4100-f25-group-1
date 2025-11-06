@@ -20,7 +20,7 @@ In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of a
 The data was obtained from the city of Ottawa's open data portal. For the data to be displayed on google sheets, a csv file was downloaded from the portal before uploading it on google sheets.
 
 ![](google-sheets.png)<br>
-Official Link to the file:[(https://docs.google.com/spreadsheets/d/1KXOoNeWieBXd_MXVWqwqiPbALIGjXDVZ9fkCmt_r96c/edit?gid=1595411425#gid=1595411425)]
+*Figure 1: [official link to the file](https://docs.google.com/spreadsheets/d/1KXOoNeWieBXd_MXVWqwqiPbALIGjXDVZ9fkCmt_r96c/edit?gid=1595411425#gid=1595411425)*
 
 Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be cleaned to two main categories: a main theme, and the codes which fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column b being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
 
@@ -56,7 +56,7 @@ Lastly, outlier values (O) are values that significantly deviate from the rest; 
 To measure the correctness of the data, we compared this dataset to the 2021 Population Census on the [Knowledge of the official language for the total population excluding institutional residents](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124,2021A00053506008&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=12)(Government of Canada, 2022). There were no major discrepancies, except for minor differences ranging from 0.1% to 0.5% between the two datasets. These differences are not statistically concerning and may be attributed to the sampling methods used - one based on 25% data vs the full 100% census data.
 
 ![](3.1.png)<br>
-*Figure 1: Knowledge of official languges for the total population excluding instituitional residents in Ottawa (Source: [Stats Can](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A00053506008&HEADERlist=12))*
+*Figure 2: Knowledge of official languges for the total population excluding instituitional residents in Ottawa (Source: [Stats Can](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A00053506008&HEADERlist=12))*
 
 To sum up, the data is mostly accurate, given that it has an acceptable level of correctness and a decent level of validity. The only issue at stake in this data set is the small number of missing values. 
 
@@ -79,7 +79,7 @@ As our group plans to analyze the reason behind the difference in the francophon
 Our group also leveraged the feature “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
 
 ![](colstats.png)<br>
-*Figure 4: Using the "Column Stats" function to spot for missing values*
+*Figure 5: Using the "Column Stats" function to spot for missing values*
 
 Lastly, to enhance overall readability, our group decided to bold the variable titles. In addition, we highlighted the rows in alternating colors (grey and white) to make each row stand out and prevent misreading values from adjacent rows.
 
@@ -93,10 +93,10 @@ After we created this pivot table, we also created a column chart to showcase al
 Going forward, we would like to see if the percentage of the population lines up with the percentages of services offered in French. For example, what are the percentages of French-only schools in each ward? Answering questions like these will help us form our story. 
 
 ![alt text](<Pivot table.png>)
-*Figure 2: This pivot table shows...*
+*Figure 6: A pivot table is used to calculate the percentage of French speakers, by knowing the sum *
 
 ![alt text](Chart3.3.png)
-*Figure 3: This exploratory chart shows...*
+*Figure 7: This exploratory chart shows the percentage of French speaker in ward*
 
 ## 4. Potential Story
 
@@ -139,4 +139,4 @@ Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 
 
 [def]: google-sheets.png
 
-Government of Canada, Statistics Canada. (2021, September 2). Statistics: Power from Data! [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm] 
+Government of Canada, Statistics Canada. (2021, September 2). *Statistics: Power from Data!* [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm] 
