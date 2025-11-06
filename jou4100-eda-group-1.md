@@ -138,7 +138,10 @@ However, because councillors aren’t always available for interviews, we need t
 
 ## 5. Conclusion
 
-Insert text here.
+In conclusion, after verifying, analyzing and cleaning the data that we were given, we ended with a story idea that we were all happy with. Through VIMO analysis we were able to verify that our data was correct and become aware of any potential errors. After we verified our data we cleaned it to make it more digestible and easier to work with. Our final step after that was to analyze the data and create a more in depth version of our story, which was the most rewarding part of this assignment because after putting in the work to tackle such a massive dataset, our job became noticeably easier. 
+
+There were some challenges as well, like learning new tools and how to work with them such as Excel and GitHub. None of us were familiar with GitHub before this project so we had to overcome the newfound process together as a group. This new challenge also offered a learning experience for all of us which allowed us to improve on our ability to work as a team as well as become more comfortable using new tools which might not be as comfortable for us. If we were to restart, the only things we would do differently is coordinate things together better in terms of time on and away from the computer, as well as work together to build off of each other's ideas more easily.
+
 
 ## 6. References
 *Data Accuracy and Validation: Methods to ensure the quality of data.* (2020, September 23). Www.statcan.gc.ca. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
