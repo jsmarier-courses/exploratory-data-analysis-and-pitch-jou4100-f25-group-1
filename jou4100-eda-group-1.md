@@ -96,7 +96,7 @@ Going forward, we would like to see if the percentage of the population lines up
 *Figure 6: A pivot table is used to calculate the percentage of French speakers, by knowing the sum*
 
 ![alt text](Chart3.3.png)
-*Figure 7: This exploratory chart shows the percentage of French speaker in ward*
+*Figure 7: This exploratory chart shows the percentage of French speaker in each ward*
 
 ## 4. Potential Story
 
