@@ -8,38 +8,37 @@
 
 ## 1. Introduction
 
-Here is A link to the CSV version of the dataset from the Github Portal: [https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv] 
+In 2021 the City of Ottawa sent out a long form census questionnaire to 25% of all houses. This survey collected countless information points across different wards and compared them. According to Statistics Canada, who gathered the data, census surveys are sent out by mail and cover topics like average total income, nationality and language proficiency. 
 
+[Here is a link to the CSV version of the dataset from the Github Portal](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv)
 
-In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of all houses. This survey collected countless information points across different wards and compared them. According to Statistics Canada, who gathered the data, census surveys are sent out by mail and cover topics like average total income, nationality and language proficiency. Here is a link to the dataset that will be referenced henceforth: 
-
-[https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about].
+[Here is a link to the dataset that will be referenced henceforth](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about).
 
  For our story we wanted to focus on the language statistics and particularly wards that speak the most French and what factors affect these numbers. In this pitch we will explain how we got our data, and then cleaned and analyzed it resulting in the base of our story.
 
 
 ## 2. Getting Data
 
-The data was obtained from the city of Ottawa's open data portal. For the data to be displayed on google sheets, a csv file was downloaded from the portal before uploading it on google sheets.
+The data was obtained from the City of Ottawa's open data portal. For the data to be displayed on Google Sheets, a csv. file was downloaded from the portal before uploading it to the application. 
 
 ![](google-sheets.png)<br>
 *Figure 1: [official link to the file](https://docs.google.com/spreadsheets/d/1KXOoNeWieBXd_MXVWqwqiPbALIGjXDVZ9fkCmt_r96c/edit?gid=1595411425#gid=1595411425)*
 
-Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be cleaned to two main categories: a main theme, and the codes which fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column b being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
+Prior to cleaning, the data had 2603 rows with 26 columns. The rows can be cleaned into two main categories: a main theme, and the codes that fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column B being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
 
-In regards to anomalies in the data, column A **Characteristics** is the only column with equal-interval and nominal variables , while other columns contain a ratio variable. An additional observation that could be made, is that despite **Ward 7** (Column I) having a fairly average population sample size in relation to the total population, they account for **11.2%** of the 95 to 99 age groups, vastly outperforming other wards with greater sample size. The impressive stats in older age groups hints at the possibility of higher quality of life as compared to other wards. Lastly, out of all columns, Ward 9 (Column N) heavily underperforms in response rate( **7.60%**) as compared to other wards. This creates a potential story that perhaps the area itself doesn’t have a tight community as compared to other wards, which may explain the lack of responsiveness from its residence.
+In regards to anomalies in the data, column A **Characteristics** is the only column with equal-interval and nominal variables, while other columns contain a ratio variable. An additional observation that could be made is that despite **Ward 7** (Column I) having a fairly average population sample size in relation to the total population, they accounts for **11.2%** of the 95 to 99 age groups, vastly outperforming other wards with greater sample sizes. The impressive stats in older age groups hint at the possibility of a higher quality of life as compared to other wards. Lastly, out of all columns, Ward 9 (Column N) heavily underperforms in response rate( **7.60%**) as compared to other wards. This creates a potential story that perhaps the area itself doesn’t have a tight community as compared to other wards, which may explain the lack of responsiveness from its residents.
 
 If we are to formulate a question after looking at the raw data in general, we would want to know what factors are crucial in helping with response rates for the survey. Potential questions that could be asked in an interview are: 
 
-- “what makes you determine whether or not you want to participate in a city of Ottawa survey?"
+<ins> What makes you determine whether or not you want to participate in a city of Ottawa survey?</ins>
 
 or 
 
-- "Does your impression of the city councilor affect your decision? to participate”
+<ins>Does your impression of the city councilor affect your decision to participate?</ins>
 
 However, if the question is in the context of a research question, we can change the wording to:
 
-- What factors lead to higher community participation in a Ward District for City of Ottawa surveys?
+<ins>What factors lead to higher community participation in a Ward District for City of Ottawa surveys?</ins>
 
 
 ## 3. Understanding Data
@@ -48,7 +47,9 @@ However, if the question is in the context of a research question, we can change
 
 According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)(Data Accuracy and Validation: Methods to Ensure the Quality of Data, 2020). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our chosen dataset. 
 
-The V in VIMO represents valid data - values that are not blank or missing, and within a range of valid values. On the other hand, invalid data has values that are impossible. There are no invalid values (I) in our dataset, as all the values as variables appropriately indicate the population in private households of each ward. 
+Before diving deeper, the dataset we decided to focus on includes rows 427 to 431. This subset highlights the *“Knowledge of official languages for the population in private households – 25% sample.”* The columns used for this step are columns B to Z, with column B showing the total number of speakers for each official language and columns C to Z indicating the number of speakers in each ward.
+
+The V in VIMO represents valid data - values that are not blank or missing, and within a range of valid values. On the other hand, invalid data (I) has values that are impossible. There are no invalid values in our dataset, as all the values appropriately indicate the population in private households of each ward. 
 
 Missing values (M) occur when a variable is left blank. In this dataset, no overt missing values were detected. However, there are some covert missing values, which we identified through manual calculations. Column B represents the total household population with knowledge of official languages across all 24 wards in Ottawa. Logically, the sum of the values in all related columns should equal the total values listed in Column B; however, this is not the case.
 
@@ -83,7 +84,7 @@ A function that we used to make the data more readable was changing the [number 
 ![](3.1.2.png)<br>
 *Figure 4: After cleaning the data*
 
-Our group also leveraged the feature “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
+Our group also leveraged the “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
 
 ![](colstats.png)<br>
 *Figure 5: Using the "Column Stats" function to spot for missing values*
@@ -105,7 +106,7 @@ We also multiplied each value by 100 to get a percentage and added an array form
 ```
 
 
-After we created this pivot table, we also created a column chart to showcase all the percentages of each ward side by side. After we got all the percentages, Wards 12, 13 and 19 were the only wards that had only French-speaking populations over three per cent. This is where we got the story idea to further investigate these three wards. We want to figure out why these three wards have the highest percentages of only French speakers.
+After we created this pivot table, we also created a column chart to showcase all the percentages of each ward side by side. After we got all the percentages, Wards 12, 13, and 19 were the only wards that had only French-speaking populations over three per cent. This is where we got the story idea to further investigate these three wards. We want to figure out why these three wards have the highest percentages of only French speakers.
 
 Going forward, we would like to see if the percentage of the population lines up with the percentages of services offered in French. For example, what are the percentages of French-only schools in each ward? Answering questions like these will help us form our story. 
 
@@ -130,16 +131,17 @@ Is the proximity to Quebec a factor?
 
 Answering these questions during our interviews should help us create a story that gives a detailed answer to our question. 
 
-For interview subjects, there are many different options. Our first option for interviews will be the ward councillors. These will be important people to talk to, as they would have valuable insight into what is going on in their ward. 
+For interview subjects, there are many different options. Our first option for interviews will be the ward councilors. These will be important people to talk to, as they would have valuable insight into what is going on in their ward. 
 
-However, because councillors aren’t always available for interviews, we need to plan backups. For this, we plan to talk to business owners and people who live in the wards, along with someone who works for the French School board in Ottawa. 
+However, because councilors aren’t always available for interviews, we need to plan backups. For this, we plan to talk to business owners and people who live in the wards, along with someone who works for the French School board in Ottawa. 
 
 
 ## 5. Conclusion
 
-In conclusion, after verifying, analyzing and cleaning the data that we were given, we ended with a story idea that we were all happy with. Through VIMO analysis we were able to verify that our data was correct and become aware of any potential errors. After we verified our data we cleaned it to make it more digestible and easier to work with. Our final step after that was to analyze the data and create a more in depth version of our story, which was the most rewarding part of this assignment because after putting in the work to tackle such a massive dataset, our job became noticeably easier. 
+In conclusion, after verifying, analyzing, and cleaning the data we were given, we ended up with a story idea that we were all happy with. Through VIMO analysis, we were able to confirm the accuracy of our data and identify any potential errors. Once verified, we cleaned the dataset to make it more digestible and easier to work with. Our final step was to analyze the data and develop a more in-depth version of our story - the most rewarding part of this assignment. After putting in the effort to tackle such a large dataset, the rest of our work became noticeably easier.
 
-There were some challenges as well, like learning new tools and how to work with them such as Excel and GitHub. None of us were familiar with GitHub before this project so we had to overcome the newfound process together as a group. This new challenge also offered a learning experience for all of us which allowed us to improve on our ability to work as a team as well as become more comfortable using new tools which might not be as comfortable for us. If we were to restart, the only things we would do differently is coordinate things together better in terms of time on and away from the computer, as well as work together to build off of each other's ideas more easily.
+We also faced some challenges, such as learning how to use new tools like Excel and GitHub. None of us were familiar with GitHub before this project, so we had to learn and adapt together as a group. This challenge turned into a valuable learning experience, helping us improve our teamwork and become more comfortable using unfamiliar tools. If we were to restart the project, the main things we would do differently would be to coordinate our schedules more effectively - balancing time on and away from the computer - and to collaborate more fluidly by building on each other’s ideas.
+
 
 
 ## 6. References
