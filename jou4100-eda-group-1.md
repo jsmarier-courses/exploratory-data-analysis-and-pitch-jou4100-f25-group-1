@@ -15,7 +15,7 @@ In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of a
  For our story we wanted to focus on the language statistics and particularly wards that speak the most French and what factors affect these numbers. In this pitch we will explain how we got our data, and then cleaned and analyzed it resulting in the base of our story.
 
 
-Here is A link to the dataset from the Github Portal: [https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv] 
+Here is A link to the CSV version of the dataset from the Github Portal: [https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv] 
 
 ## 2. Getting Data
 
