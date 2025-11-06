@@ -29,8 +29,8 @@ This is the first sentence of the introduction.
 The data was obtained from the city of Ottawa's open data portal. For the data to be displayed on google sheets, a csv file was downloaded from the portal before uploading it on google sheets.
 
 ![](google-sheets.png)<br>
-Official Link to the file:
-[(https://docs.google.com/spreadsheets/d/1gY0Zsfb8476Nj1hn_hdlUGsVh3R9IoY-g8Quqz_mhDw/edit?usp=sharing)]
+Official Link to the file:[(https://docs.google.com/spreadsheets/d/1gY0Zsfb8476Nj1hn_hdlUGsVh3R9IoY-g8Quqz_mhDw/edit?usp=sharing)]
+
 Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be cleaned to two main categories: a main theme, and the codes which fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column b being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
 
 In regards to anomalies in the data, column A (Characteristics) is the only column with equal-interval and nominal variables , while other columns contain a ratio variable. An additional observation that could be made, is that despite Ward 7 (Column I) having a fairly average population sample size in relation to the total population, they account for 11.2% of the 95 to 99 age groups, vastly outperforming other wards with greater sample size. The impressive stats in older age groups hints at the possibility of higher quality of life as compared to other wards. Lastly, out of all columns, Ward 9 (Column N) heavily underperforms in response rate( 7.60%) as compared to other wards. This creates a potential story that perhaps the area itself doesn’t have a tight community as compared to other wards, which may explain the lack of responsiveness from its residence.
