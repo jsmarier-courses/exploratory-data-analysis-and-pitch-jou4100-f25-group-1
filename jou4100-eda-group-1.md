@@ -28,7 +28,7 @@ This is the first sentence of the introduction.
 
 The data was obtained from the city of Ottawa's open data portal. For the data to be displayed on google sheets, a csv file was downloaded from the portal before uploading it on google sheets.
 
-![](Sheet Screen Capture.png)<br>
+![](google-sheets.png)<br>
 
 Prior to cleaning, the data has 2603 rows with 26 columns. The rows can be cleaned to two main categories: a main theme, and the codes which fall under the categories of the theme. On the other hand, rows are separated by the 24 ward districts in Ottawa, with column b being the sole exception, which accounts for the total population in the city of Ottawa. (every ward combined)
 
@@ -152,3 +152,5 @@ Insert text here.
 
 
 Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 2021 Census of Population - Canada [Country]*. Www12.Statcan.gc.ca. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124
+
+[def]: google-sheets.png
