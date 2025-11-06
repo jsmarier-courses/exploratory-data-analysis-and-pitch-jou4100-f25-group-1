@@ -8,14 +8,15 @@
 
 ## 1. Introduction
 
+Here is A link to the CSV version of the dataset from the Github Portal: [https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv] 
+
+
 In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of all houses. This survey collected countless information points across different wards and compared them. According to Statistics Canada, who gathered the data, census surveys are sent out by mail and cover topics like average total income, nationality and language proficiency. Here is a link to the dataset that will be referenced henceforth: 
 
 [https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about].
 
  For our story we wanted to focus on the language statistics and particularly wards that speak the most French and what factors affect these numbers. In this pitch we will explain how we got our data, and then cleaned and analyzed it resulting in the base of our story.
 
-
-Here is A link to the CSV version of the dataset from the Github Portal: [https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv] 
 
 ## 2. Getting Data
 
