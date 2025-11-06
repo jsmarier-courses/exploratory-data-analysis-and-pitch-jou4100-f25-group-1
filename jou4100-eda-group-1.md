@@ -74,13 +74,11 @@ To ensure that there were no extra spaces, we used the “Trim whitespace” fun
 
 A function that we used to make the data more readable was changing the [number format](https://support.google.com/docs/answer/56470?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccustom-number-formatting)(Format Numbers in a Spreadsheet, 2019). In the original file, there are no commas in the integers, making it very hard to read. To enhance its readability, we decided to highlight all cells in our dataset (Ctrl + A) and chose the option “custom number format”, which adds a comma as a thousand separator. The only problem that arose after applying this modification is that the system automatically adds two decimal places for all the values. To do so, we Ctrl-A all the cells and select the option to decrease decimal places. 
 
-![](3.1.1.png)<br>
-*Figure 3: Before modifying the number format*
+![](3.2.2.png)<br>
+*Figure 3: Before cleaning the data*
 
 ![](3.1.2.png)<br>
-*Figure 4: After modifying the number format*
-
-As our group plans to analyze the reason behind the difference in the francophone population between each ward, column B and row 2 will not be too important, as they give the overall total population in Ottawa. Regardless, they still serve as important points for reference. As a result, we decided to hide these two elements in the interim. In addition, these two elements need to be hidden in order to generate a graphic that illustrates the number of residents who speak official languages. 
+*Figure 4: After cleaning the data*
 
 Our group also leveraged the feature “Column Stats” function to observe the count, frequency, and distribution of values. It also allows us to see if there are any empty cells (missing values); as well as duplicates. Fortunately, no errors were detected. 
 
@@ -91,17 +89,27 @@ Lastly, to enhance overall readability, our group decided to bold the variable t
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-When conducting our exploratory data analysis, we aimed to determine the location in Ottawa with the highest proportion of only French-speaking people. We wanted to look at the percentage of French speakers rather than the total French speakers to control for population. To do this, we created a pivot table that provided a percentage of only French-speaking people in each ward. We got this number by dividing the total population by the number of only French speakers and added an array formula to do the calculation for each ward “=ARRAYFORMULA(C4:Z4 / C2:Z2)”. We also multiplied each value by 100 to get a percentage and added an array formula to that one as well “=ARRAYFORMULA(C7:Z7 *100)”.
+When conducting our exploratory data analysis, we aimed to determine the location in Ottawa with the highest proportion of only French-speaking people. We wanted to look at the percentage of French speakers rather than the total French speakers to control for population. To do this, we created a pivot table that provided a percentage of only French-speaking people in each ward. We got this number by dividing the total population by the number of only French speakers and added an array formula to do the calculation for each ward: 
+
+``` r
+=ARRAYFORMULA(C4:Z4 / C2:Z2)
+```
+
+We also multiplied each value by 100 to get a percentage and added an array formula to that one as well: 
+
+``` r
+“=ARRAYFORMULA(C7:Z7 *100)”.
+```
 
 
 After we created this pivot table, we also created a column chart to showcase all the percentages of each ward side by side. After we got all the percentages, Wards 12, 13 and 19 were the only wards that had only French-speaking populations over three per cent. This is where we got the story idea to further investigate these three wards. We want to figure out why these three wards have the highest percentages of only French speakers.
 
 Going forward, we would like to see if the percentage of the population lines up with the percentages of services offered in French. For example, what are the percentages of French-only schools in each ward? Answering questions like these will help us form our story. 
 
-![alt text](<Pivot table.png>)
+![alt text](<Pivot table.png>)<br>
 *Figure 6: A pivot table is used to calculate the percentage of French speakers, by knowing the sum*
 
-![alt text](Chart3.3.png)
+![alt text](Chart3.3.png)<br>
 *Figure 7: This exploratory chart shows the percentage of French speaker in each ward*
 
 ## 4. Potential Story
