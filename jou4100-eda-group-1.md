@@ -93,7 +93,7 @@ After we created this pivot table, we also created a column chart to showcase al
 Going forward, we would like to see if the percentage of the population lines up with the percentages of services offered in French. For example, what are the percentages of French-only schools in each ward? Answering questions like these will help us form our story. 
 
 ![alt text](<Pivot table.png>)
-*Figure 6: A pivot table is used to calculate the percentage of French speakers, by knowing the sum *
+*Figure 6: A pivot table is used to calculate the percentage of French speakers, by knowing the sum*
 
 ![alt text](Chart3.3.png)
 *Figure 7: This exploratory chart shows the percentage of French speaker in ward*
