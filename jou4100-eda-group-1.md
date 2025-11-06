@@ -92,13 +92,8 @@ After we created this pivot table, we also created a column chart to showcase al
 
 Going forward, we would like to see if the percentage of the population lines up with the percentages of services offered in French. For example, what are the percentages of French-only schools in each ward? Answering questions like these will help us form our story. 
 
-
-**This section should include a screen capture of your pivot table, like so:**
-
 ![alt text](<Pivot table.png>)
 *Figure 2: This pivot table shows...*
-
-**This section should also include a screen capture of your exploratory chart, like so:**
 
 ![alt text](Chart3.3.png)
 *Figure 3: This exploratory chart shows...*
@@ -110,6 +105,7 @@ For our story, we would like to take a closer look at the top French-speaking wa
 Some factors that we want to look at are how many French schools are in each ward, and if proximity to Quebec means more French speakers. Once we gather this data, we can use interactive maps to show where the schools are and create a heat map of the proportion of French speakers for each ward.
 
 Some of the questions we can explore to answer this question are: 
+
 Are there differences in the resources that are offered in French? 
 Are there more French businesses in certain wards?
 Are there more French schools? 
