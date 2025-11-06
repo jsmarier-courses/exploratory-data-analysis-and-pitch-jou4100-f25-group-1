@@ -45,9 +45,9 @@ However, if the question is in the context of a research question, we can change
 
 ### 3.1. VIMO Analysis
 
-According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)(Data Accuracy and Validation: Methods to Ensure the Quality of Data, 2020). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our chosen dataset. 
+Before diving deeper, the dataset we decided to focus on includes rows 427 to 431. This subset highlights the *“Knowledge of official languages for the population in private households – 25% sample.”* The columns used for this step are columns B to Z, with column B showing the total number of speakers for each official language and columns C to Z indicating the number of speakers in each ward. The reason why be chose this subset is because our group would like to see the wards with the highest number of monolingual French speakers, and find the reason why. 
 
-Before diving deeper, the dataset we decided to focus on includes rows 427 to 431. This subset highlights the *“Knowledge of official languages for the population in private households – 25% sample.”* The columns used for this step are columns B to Z, with column B showing the total number of speakers for each official language and columns C to Z indicating the number of speakers in each ward.
+According to Statistics Canada, [accurate data correctly describes the phenomena they were designed to measure or represent](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)(Data Accuracy and Validation: Methods to Ensure the Quality of Data, 2020). To assess the accuracy of a data set, a method that professionals usually opt for is the VIMO analysis. Leveraging the VIMO analysis model, our group will evaluate the level of accuracy of our chosen dataset. 
 
 The V in VIMO represents valid data - values that are not blank or missing, and within a range of valid values. On the other hand, invalid data (I) has values that are impossible. There are no invalid values in our dataset, as all the values appropriately indicate the population in private households of each ward. 
 
