@@ -5,9 +5,6 @@
 
 # Exploratory Data Analysis (EDA) & Pitch
 
-## Foreword
-
-
 
 ## 1. Introduction
 
