@@ -49,7 +49,13 @@ The V in VIMO represents valid data - values that are not blank or missing, and 
 
 Missing values (M) occur when a variable is left blank. In this dataset, no overt missing values were detected. However, there are some covert missing values, which we identified through manual calculations. Column B represents the total household population with knowledge of official languages across all 24 wards in Ottawa. Logically, the sum of the values in all related columns should equal the total values listed in Column B; however, this is not the case.
 
-When we calculated the sum of the population who speaks English using “SUM(C3:Z3), we got the value of 606,200, whereas cell B3 shows 606,195—indicating that five values are missing. While this is not a huge number, it still affects the accuracy of the data. 
+When we calculated the sum of the population who speaks English using: 
+
+``` r
+=SUM(C3:Z3)
+```
+
+We got the value of 606,200, whereas cell B3 shows 606,195—indicating that five values are missing. While this is not a huge number, it still affects the accuracy of the data. 
 
 Lastly, outlier values (O) are values that significantly deviate from the rest; these values could either be extremely small or extremely large. While nothing out of the blue, we were surprised to see that there are only 30 private household residents reported speaking French exclusively in Ward 21. 
 
