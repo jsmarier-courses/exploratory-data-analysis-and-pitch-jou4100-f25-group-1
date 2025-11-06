@@ -22,7 +22,7 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of all houses. This survey collected countless information points across different wards and compared them. According to Statistics Canada, who gathered the data, census surveys are sent out by mail and cover topics like average total income, nationality and language proficiency. Here is a link to the dataset that will be referenced henceforth: https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about
+In 2021 the city of Ottawa sent out a long form census questionnaire to 25% of all houses. This survey collected countless information points across different wards and compared them. According to Statistics Canada, who gathered the data, census surveys are sent out by mail and cover topics like average total income, nationality and language proficiency. Here is a link to the dataset that will be referenced henceforth: [https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about] 
 For our story we wanted to focus on the language statistics and particularly wards that speak the most French and what factors affect these numbers. In this pitch we will explain how we got our data, and then cleaned and analyzed it resulting in the base of our story.
 
 
@@ -150,3 +150,5 @@ Insert text here.
 Government of Canada, S. C. (2022, February 9). *Profile table, Census Profile, 2021 Census of Population - Canada [Country]*. Www12.Statcan.gc.ca. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=ottawa&DGUIDlist=2021A000011124
 
 [def]: google-sheets.png
+
+Government of Canada, Statistics Canada. (2021, September 2). Statistics: Power from Data! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm
